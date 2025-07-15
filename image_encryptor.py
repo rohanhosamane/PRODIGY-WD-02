@@ -1,6 +1,5 @@
 from PIL import Image
 
-# Encrypt the image
 def encrypt_image(input_path, output_path, key):
     img = Image.open(input_path)
     pixels = img.load()
